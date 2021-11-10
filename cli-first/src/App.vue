@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Title title="La mia prima app con Vue CLI!"/>
-    <Hero hero="CLICK ME!"/>
+    <Hero>
   </div>
 </template>
 
