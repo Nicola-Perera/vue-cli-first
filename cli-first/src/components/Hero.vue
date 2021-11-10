@@ -1,14 +1,14 @@
 <template>
-  <div class="app_title">
-    <h1>{{ title }}</h1>
+  <div class="jumbotron">
+    <h1>{{ hero }}</h1>
     </div>
 </template>
 
 <script>
 export default {
-  name: 'Title',
+  name: 'Hero',
   props: {
-    title: String,
+    hero: String,
   },
 };
 </script>
